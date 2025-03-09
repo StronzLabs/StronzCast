@@ -6,11 +6,16 @@ version: 0.0.1
 
 environment:
   sdk: ^3.6.0
+  flutter: '>=3.3.0'
 
 dependencies:
+  flutter:
+    sdk: flutter
   cast: ^2.1.0
   castscreen:
     git: https://github.com/Bonfra04/dart_castscreen.git
+  sutils:
+    git: https://github.com/StronzLabs/SUtils.git
 
 dev_dependencies:
   flutter_test:
