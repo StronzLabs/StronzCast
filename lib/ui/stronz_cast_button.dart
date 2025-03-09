@@ -3,12 +3,12 @@ import 'package:sutils/ui/icons/animated_gradient_icon.dart';
 import 'package:sutils/utils.dart';
 import 'package:stronz_cast/stronz_cast.dart';
 
-class CastButton extends StatefulWidget {
+class StronzCastButton extends StatefulWidget {
     final double iconSize;
     final void Function()? onOpened;
     final void Function()? onClosed;
 
-    const CastButton({
+    const StronzCastButton({
         super.key,
         this.iconSize = 28,
         this.onOpened,
@@ -16,10 +16,10 @@ class CastButton extends StatefulWidget {
     });
 
     @override
-    State<CastButton> createState() => _CastButtonState();
+    State<StronzCastButton> createState() => _CastButtonState();
 }
 
-class _CastButtonState extends State<CastButton> {
+class _CastButtonState extends State<StronzCastButton> {
 
     @override
     void setState(VoidCallback fn) {
