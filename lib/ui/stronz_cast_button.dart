@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sutils/ui/icons/animated_gradient_icon.dart';
+import 'package:sutils/ui/widgets/animated_gradient_icon.dart';
 import 'package:sutils/utils.dart';
 import 'package:stronz_cast/stronz_cast.dart';
 
